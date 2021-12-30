@@ -1,0 +1,9 @@
+#tbody {
+  border: 5px solid gray;
+}
+
+#tbody tr td a {
+  border: 1px solid red;
+  padding: 5px;
+}
+
