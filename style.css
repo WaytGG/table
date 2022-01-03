@@ -1,0 +1,104 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+table {
+  width: 900px;
+  height: 500px;
+  margin: 100px auto;
+  text-align: center;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table thead tr {
+  height: 100px;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+table thead tr td {
+  vertical-align: middle;
+}
+
+table thead tr td:first-child {
+  width: 25%;
+  vertical-align: middle;
+}
+
+thead tr td > span {
+  display: inline-block;
+  padding: 10px 60px 10px 60px;
+}
+
+table thead tr td:nth-of-type(1) {
+  background-color: #7887ab;
+}
+
+thead tr td:nth-of-type(2) {
+  background-color: #4f628e;
+}
+
+thead tr td:nth-of-type(3) {
+  background-color: #2e4172;
+}
+
+thead tr td:nth-of-type(4) {
+  background-color: #162955;
+}
+
+thead tr td:nth-of-type(5) {
+  background-color: #061539;
+}
+
+/* tbody */
+
+tbody tr td {
+  vertical-align: middle;
+  font-family: sans-serif;
+}
+
+table tbody tr:nth-child(odd) td:nth-child(odd),
+tfoot tr td:nth-child(odd) {
+  background-color: #dbdbdb;
+}
+
+table tbody tr:nth-child(odd) td:nth-child(even),
+tfoot tr td:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+table tbody tr:nth-child(even) td:nth-child(odd) {
+  background-color: #e7e7e7;
+}
+
+table tbody tr:nth-child(even) td:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+tfoot {
+  height: 16%;
+}
+
+tfoot tr td {
+  vertical-align: middle;
+}
+
+tfoot a {
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 10px 27px;
+  text-transform: uppercase;
+  color: rgb(78, 76, 76);
+  font-weight: 600;
+  background-color: #d4d0d0;
+  font-family: sans-serif;
+}
+
+tfoot tr td a:hover {
+  color: white;
+}
