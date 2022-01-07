@@ -109,4 +109,5 @@ tfoot a {
 
 tfoot tr td a:hover {
   color: white;
+  background-color: rgb(187, 185, 185);
 }
